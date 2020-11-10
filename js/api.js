@@ -1,5 +1,4 @@
-// var base_url = "https://readerapi.codepolitan.com/";
-var base_url = "http://api.football-data.org/v2/";
+var base_url = "https://api.football-data.org/v2/";
 var token = "56e0ea311d714bfa9a6e1b1ce934dd62";
 
 // Blok kode yang akan di panggil jika fetch berhasil
