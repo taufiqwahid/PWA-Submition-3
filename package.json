@@ -1,0 +1,23 @@
+{
+  "name": "pwa-submition2-dicoding",
+  "version": "1.0.0",
+  "description": "PWA-Submition-2",
+  "main": "push.js",
+  "dependencies": {
+    "web-push": "^3.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taufiqwahid/PWA-Submition-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taufiqwahid/PWA-Submition-2/issues"
+  },
+  "homepage": "https://github.com/taufiqwahid/PWA-Submition-2#readme"
+}
