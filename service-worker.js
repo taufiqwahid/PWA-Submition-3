@@ -56,6 +56,13 @@ workbox.routing.registerRoute(
 );
 
 workbox.routing.registerRoute(
+  /.*(?:googleapis|gstatic)\.com/,
+  workbox.strategies.staleWhileRevalidate({
+    cacheName: "google-fonts-stylesheets",
+  }),
+);
+
+workbox.routing.registerRoute(
   new RegExp("pages/"),
   workbox.strategies.staleWhileRevalidate({
     cacheName: "pages",
